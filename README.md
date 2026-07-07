@@ -7,8 +7,7 @@
   <a href="https://www.linkedin.com/in/anzar-shaikh-4bb357282/">
     <img src="https://img.shields.io/badge/LinkedIn-Anzar%20Shaikh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:anzarsk098@gmail.com">
-    <img src="https://img.shields.io/badge/Email-anzarsk098-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=anzr101&style=for-the-badge&color=555555&label=PROFILE+VIEWS"/>
+    <img src="https://img.shields.io/badge/Email-anzarsk098@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 <h3 align="center">
