@@ -1,28 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410" font-family="'Segoe UI',system-ui,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300" font-family="'Segoe UI',system-ui,sans-serif">
 <defs>
   <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9ecf1"/></linearGradient>
-  <radialGradient id="bg" cx="0.36" cy="0.3" r="0.85">
+  <radialGradient id="bg" cx="0.36" cy="0.32" r="0.85">
     <stop offset="0" stop-color="#ffffff"/><stop offset="0.42" stop-color="#e4e8ee"/>
     <stop offset="0.78" stop-color="#bcc2ce"/><stop offset="1" stop-color="#9299a9"/></radialGradient>
   <radialGradient id="tb" cx="0.4" cy="0.2" r="0.9"><stop offset="0" stop-color="#aeb4c1"/><stop offset="1" stop-color="#7c8394"/></radialGradient>
   <radialGradient id="tm" cx="0.4" cy="0.2" r="0.9"><stop offset="0" stop-color="#c2c7d2"/><stop offset="1" stop-color="#9aa1b1"/></radialGradient>
-  <radialGradient id="grnd" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2a2f3a" stop-opacity="0.26"/><stop offset="1" stop-color="#2a2f3a" stop-opacity="0"/></radialGradient>
   <radialGradient id="spec" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
   <radialGradient id="cloud" cx="0.4" cy="0.3" r="0.8">
     <stop offset="0" stop-color="#ffffff"/><stop offset="0.5" stop-color="#e7eaef"/>
     <stop offset="0.82" stop-color="#c4cad5"/><stop offset="1" stop-color="#a7aeba"/></radialGradient>
   <radialGradient id="stem" cx="0.4" cy="0.3" r="0.8"><stop offset="0" stop-color="#dfe3ea"/><stop offset="1" stop-color="#9aa1b0"/></radialGradient>
+  <radialGradient id="grnd" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2a2f3a" stop-opacity="0.22"/><stop offset="1" stop-color="#2a2f3a" stop-opacity="0"/></radialGradient>
   <style>
     @keyframes floatoct{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-1.4px) rotate(1deg)}}
     @keyframes billow{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-3px) scale(1.03)}}
-    @keyframes gshadow{0%,100%{opacity:.85;transform:scaleX(1)}50%{opacity:.6;transform:scaleX(.85)}}
     @keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
     @keyframes d1{0%,100%{transform:translate(0,0) rotate(0)}50%{transform:translate(4px,-6px) rotate(16deg)}}
     @keyframes d2{0%,100%{transform:translate(0,0) rotate(0)}50%{transform:translate(-5px,-7px) rotate(-18deg)}}
-    @keyframes d3{0%,100%{transform:translate(0,0) rotate(0)}50%{transform:translate(6px,4px) rotate(22deg)}}
-    .oct{animation:floatoct 4.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 58%}
-    .cloud{animation:billow 6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 80%}
-    .grnd{animation:gshadow 4.6s ease-in-out infinite;transform-origin:855px 372px;transform-box:view-box}
+    @keyframes d3{0%,100%{transform:translate(0,0) rotate(0)}50%{transform:translate(5px,4px) rotate(22deg)}}
+    .oct{animation:floatoct 4.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 55%}
+    .cloud{animation:billow 6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 88%}
     .cur{animation:cur 1.1s steps(1) infinite}
     .d1{animation:d1 5.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
     .d2{animation:d2 6.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
@@ -30,14 +28,14 @@
   </style>
 </defs>
 
-<rect x="1" y="1" width="1098" height="408" rx="20" fill="url(#card)" stroke="#e0e3e9"/>
+<rect x="1" y="1" width="1098" height="298" rx="20" fill="url(#card)" stroke="#e0e3e9"/>
 <g fill="#c6cbd5"><circle cx="28" cy="26" r="2"/><circle cx="44" cy="26" r="2"/><circle cx="28" cy="42" r="2"/>
-  <circle cx="1072" cy="384" r="2"/><circle cx="1056" cy="384" r="2"/><circle cx="1072" cy="368" r="2"/></g>
+  <circle cx="1072" cy="274" r="2"/><circle cx="1056" cy="274" r="2"/><circle cx="1072" cy="258" r="2"/></g>
 
-<ellipse class="grnd" cx="855" cy="372" rx="120" ry="16" fill="url(#grnd)"/>
+<ellipse cx="855" cy="250" rx="86" ry="12" fill="url(#grnd)"/>
 
 <!-- OCTOPUS (floats as one unit) -->
-<g transform="translate(770,182) scale(4.7)">
+<g transform="translate(783,110) scale(4)">
   <g class="oct">
     <path fill="url(#tm)" d="M30.188 16c-3 5 0 10.692 3 9.692s4 2 1 3-9.465-.465-13-4c-1-1-2-1-2-1l11-7.692zM5.812 16c3 5 0 10.692-3 9.692s-4 2-1 3 9.465-.465 13-4c1-1 2-1 2-1L5.812 16z"/>
     <path fill="url(#tb)" d="M10 12c3 5 0 10.692-3 9.692s-4 2-1 3 9.465-.465 13-4c1-1 2-1 2-1L10 12z"/>
@@ -50,69 +48,57 @@
   </g>
 </g>
 
-<!-- CRACKED-OPEN CRATER on the head top -->
-<ellipse cx="855" cy="205" rx="52" ry="17" fill="url(#bg)"/>
-<ellipse cx="855" cy="207" rx="41" ry="11.5" fill="#2b303b"/>
-<ellipse cx="855" cy="205" rx="41" ry="11.5" fill="#464c59"/>
-<g fill="url(#bg)">
-  <polygon points="808,206 816,190 824,206"/><polygon points="824,206 833,188 842,206"/>
-  <polygon points="842,206 851,187 860,206"/><polygon points="860,206 869,188 878,206"/>
-  <polygon points="878,206 887,189 896,206"/><polygon points="896,206 903,192 902,206"/>
-</g>
+<!-- small jagged crack (not a bin) -->
+<path d="M844,116 L849,108 L855,114 L861,107 L866,115 L863,120 L847,120 Z" fill="#3a3f4a"/>
 
-<!-- PERMANENT MUSHROOM CLOUD -->
+<!-- PERMANENT MUSHROOM CLOUD (smaller) -->
 <g class="cloud">
-  <!-- stem -->
   <g fill="url(#stem)">
-    <ellipse cx="855" cy="196" rx="26" ry="12"/>
-    <circle cx="855" cy="184" r="17"/><circle cx="840" cy="176" r="12"/><circle cx="871" cy="176" r="12"/>
-    <circle cx="855" cy="168" r="16"/>
+    <circle cx="855" cy="98" r="13"/><circle cx="844" cy="90" r="9"/><circle cx="866" cy="90" r="9"/><circle cx="855" cy="82" r="12"/>
   </g>
-  <!-- cap billows -->
   <g fill="url(#cloud)">
-    <circle cx="855" cy="150" r="30"/>
-    <circle cx="820" cy="142" r="24"/><circle cx="890" cy="142" r="24"/>
-    <circle cx="797" cy="128" r="22"/><circle cx="913" cy="128" r="22"/>
-    <circle cx="828" cy="120" r="26"/><circle cx="882" cy="120" r="26"/>
-    <circle cx="855" cy="110" r="30"/>
-    <circle cx="808" cy="112" r="18"/><circle cx="902" cy="112" r="18"/>
-    <circle cx="843" cy="98" r="20"/><circle cx="871" cy="98" r="20"/>
-    <circle cx="855" cy="90" r="18"/>
+    <circle cx="855" cy="72" r="22"/>
+    <circle cx="832" cy="80" r="17"/><circle cx="878" cy="80" r="17"/>
+    <circle cx="816" cy="68" r="14"/><circle cx="894" cy="68" r="14"/>
+    <circle cx="840" cy="60" r="16"/><circle cx="870" cy="60" r="16"/>
+    <circle cx="855" cy="52" r="15"/>
   </g>
-  <!-- highlights -->
-  <g fill="#ffffff" opacity="0.7">
-    <circle cx="843" cy="98" r="9"/><circle cx="828" cy="118" r="8"/><circle cx="855" cy="106" r="8"/>
-  </g>
+  <g fill="#ffffff" opacity="0.7"><circle cx="843" cy="60" r="7"/><circle cx="855" cy="66" r="6"/><circle cx="833" cy="76" r="6"/></g>
 </g>
 
-<!-- DEBRIS chunks (permanent, gentle drift) -->
+<!-- cracked eggshell rim around the burst -->
+<g fill="url(#bg)" stroke="#b3b9c6" stroke-width="0.6">
+  <polygon points="832,114 839,104 845,114"/><polygon points="845,114 852,102 859,114"/>
+  <polygon points="859,114 866,103 873,114"/><polygon points="873,114 880,105 886,114"/>
+  <polygon points="825,113 833,108 832,116"/><polygon points="885,113 877,108 878,116"/>
+</g>
+
+<!-- DEBRIS (permanent, gentle drift) -->
 <g>
-  <g transform="translate(740,150) rotate(-20)"><rect class="d1" x="-7" y="-5" width="14" height="10" rx="2.5" fill="#8b92a2"/></g>
-  <g transform="translate(760,110) rotate(30)"><polygon class="d2" points="-7,6 8,4 2,-7" fill="#7c8394"/></g>
-  <g transform="translate(955,145) rotate(24)"><rect class="d3" x="-8" y="-5" width="16" height="11" rx="2.5" fill="#9aa1b0"/></g>
-  <g transform="translate(940,100) rotate(-16)"><rect class="d1" x="-6" y="-4" width="12" height="9" rx="2" fill="#8b92a2"/></g>
-  <g transform="translate(790,72) rotate(18)"><polygon class="d3" points="-6,5 7,4 1,-6" fill="#9aa1b0"/></g>
-  <g transform="translate(915,72) rotate(-26)"><rect class="d2" x="-6" y="-4" width="12" height="8" rx="2" fill="#7c8394"/></g>
-  <g transform="translate(700,190) rotate(12)"><rect class="d3" x="-6" y="-4" width="12" height="9" rx="2" fill="#9aa1b0"/></g>
-  <g transform="translate(985,185) rotate(-12)"><polygon class="d1" points="-6,5 7,4 1,-6" fill="#8b92a2"/></g>
+  <g transform="translate(788,86) rotate(-20)"><rect class="d1" x="-6" y="-4" width="12" height="9" rx="2" fill="#8b92a2"/></g>
+  <g transform="translate(800,50) rotate(28)"><polygon class="d2" points="-6,5 7,4 1,-6" fill="#7c8394"/></g>
+  <g transform="translate(922,84) rotate(22)"><rect class="d3" x="-7" y="-4" width="14" height="9" rx="2" fill="#9aa1b0"/></g>
+  <g transform="translate(910,48) rotate(-16)"><rect class="d1" x="-5" y="-3" width="10" height="8" rx="2" fill="#8b92a2"/></g>
+  <g transform="translate(838,34) rotate(18)"><polygon class="d3" points="-5,4 6,3 1,-5" fill="#9aa1b0"/></g>
+  <g transform="translate(878,32) rotate(-24)"><rect class="d2" x="-5" y="-3" width="10" height="7" rx="2" fill="#7c8394"/></g>
 </g>
 
 <!-- LAPTOP -->
-<g transform="translate(855,376)">
-  <polygon points="-70,4 70,4 88,22 -88,22" fill="#d7dbe2"/>
-  <polygon points="-88,22 88,22 84,29 -84,29" fill="#b3b9c6"/>
-  <rect x="-15" y="9" width="30" height="6" rx="2" fill="#c2c8d2"/>
-  <rect x="-57" y="-46" width="114" height="52" rx="5" fill="#cfd4dd"/>
-  <rect x="-50" y="-40" width="100" height="44" rx="3" fill="#0e1116"/>
-  <g font-family="'Courier New',monospace" font-size="8">
-    <text x="-43" y="-28" fill="#e9edf2">def build_ai():</text>
-    <text x="-37" y="-17" fill="#9aa4b2">while learning:</text>
-    <text x="-31" y="-6" fill="#cfd4dd">ship()<tspan class="cur" fill="#fff">_</tspan></text>
+<g transform="translate(855,262)">
+  <polygon points="-62,4 62,4 78,20 -78,20" fill="#d7dbe2"/>
+  <polygon points="-78,20 78,20 74,26 -74,26" fill="#b3b9c6"/>
+  <rect x="-13" y="9" width="26" height="5" rx="2" fill="#c2c8d2"/>
+  <rect x="-50" y="-38" width="100" height="44" rx="5" fill="#cfd4dd"/>
+  <rect x="-44" y="-33" width="88" height="38" rx="3" fill="#0e1116"/>
+  <g font-family="'Courier New',monospace" font-size="7">
+    <text x="-38" y="-23" fill="#e9edf2">def build_ai():</text>
+    <text x="-33" y="-14" fill="#9aa4b2">while learning:</text>
+    <text x="-28" y="-5" fill="#cfd4dd">ship()<tspan class="cur" fill="#fff">_</tspan></text>
   </g>
 </g>
 
 <!-- NAME -->
-<g transform="translate(64,190)">
+<g transform="translate(64,148)">
   <text x="0" y="0" font-size="46" font-weight="800" fill="#12151b" letter-spacing="1">ANZAR SHAIKH</text>
   <text x="2" y="36" font-family="'Courier New',monospace" font-size="17" fill="#3a4150">
     AI Engineer<tspan fill="#aab0bd"> / </tspan>GenAI<tspan fill="#aab0bd"> / </tspan>Machine Learning<tspan class="cur" fill="#12151b">_</tspan></text>
